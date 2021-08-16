@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <title>Haastetehtävä - Korttipeli</title>
+</head>
+<body>
+  <h2 id="text">Blackjack</h2>
+  <input type="button" id="btnStart" value="Aloita">
+  <input type="button" id="hitMe" value="Lisää">
+  <input type="button" id="stay" value="Jää">
+<script> 
+  var suits = ["Pata", "Hertta", "Ruutu", "Risti"];
+  var values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
+
+  var text = document.getElementById("text");
+  var start = document.getElementById("btnStart");
+  var hitMe = document.getElementById("hitMe");
+  var stay = document.getElementById("stay");
+
+  var gamesStarted = false;
+  var gameOver = false;
+  var playerWon = false;
+  var dealerCards = [];
+  var playerCards = [];
+  var dealerScore = 0;
+  var playerScore = 0;
+  var deck = [];
+
+  start.addEventListener("click", function() {
+    gamesStarted = true;
+    gameOver = false;
+    playerWon = false;
+    document.getElementById("btnStart").value = "Aloita alusta";
+
+    deck = createDeck();
+    shulffleDeck(deck);
+    dealerCards = [getNextCard(), getNextCard()];
+    playerCards = [getNextCard(), getNextCard()];
+
+    showStatus();
+  });
+
+  hitMe.addEventListener("click", function() {
+    playerCards.push(getNextCard());
+    checkEndOfGame();
+    showStatus();
+  });
+
+  stay.addEventListener("click", function() {
+    gameOver = true;
+    checkEndOfGame();
+    showStatus();
+  });
+
+  function createDeck() {
+    var deck = [];
+    for (var suitId = 0; suitId < suits.length; suitId++) {
+      for (var valueId = 0; valueId < values.length; valueId++) {
+        var card = {
+          suit: suits[suitId],
+          value: values[valueId] 
+        };
+        deck.push(card);
+      }
+    }
+    return deck;
+  }
+
+  function showStatus() {
+    var dealerCardString = "";
+  for (var i = 0; i < dealerCards.length; i++) {
+    dealerCardString += getCardString(dealerCards[i]) + "\n";
+  }
+
+  var playerCardString = "";
+  for (var i = 0; i < playerCards.length; i++) {
+    playerCardString += getCardString(playerCards[i]) + "\n";
+  }
+
+  updateScores();
+
+  text.innerText =
+    "Jakajalla on: \n " +
+    dealerCardString +
+    "(Pisteet:" +
+    dealerScore +
+    ")\n\n" +
+    "Sinulla on: \n " +
+    playerCardString +
+    "(Pisteet:" +
+    playerScore +
+    ")\n\n";
+
+    if (gameOver) {
+      if (playerWon) {
+        text.innerText += "Voitit!";
+      }
+      else {
+        text.innerText += "Jakaja voitti!"
+      }
+    }
+  }
+
+  function shulffleDeck() {
+    for (var i = 0; i < deck.length; i++) {
+      var swapId = Math.trunc(Math.random() * deck.length);
+      var tmp = deck[swapId];
+      deck[swapId] = deck[i];
+      deck[i] = tmp;
+    }
+  }
+
+  function getCardString(card) {
+    return card.suit + " " + card.value; 
+  }
+  function getNextCard() {
+    return deck.shift();
+  }
+
+  function cardValue(card) {
+    switch (card.value) {
+      case "A":
+        return 1;
+      case "2":
+        return 2;
+      case "3":
+        return 3;
+      case "4":
+        return 4;
+      case "5":
+        return 5;
+      case "6":
+        return 6;
+      case "7":
+        return 7;
+      case "8":
+        return 8;
+      case "9":
+        return 9;
+      default:
+        return 10;
+    }
+  }
+
+  function getScore(cardArray) {
+    var score = 0;
+    var hasAce = false;
+    for (var i = 0; i < cardArray.length; i++) {
+      var card = cardArray[i];
+      score += cardValue(card);
+      if (card.value === "A") {
+        hasAce = true;
+      }
+    }
+    if (hasAce && score + 10 <= 21) {
+      return score + 10;
+    }
+    return score;
+  }
+
+  function updateScores() {
+    dealerScore = getScore(dealerCards);
+    playerScore = getScore(playerCards);
+  }
+
+  function checkEndOfGame() {
+    updateScores();
+    if (playerScore > 21) {
+      PlayerWon = false;
+      gameOver = true;
+    }
+    else if (dealerScore > 21) {
+      playerWon = true;
+      gameOver = true;
+    }
+    else if (gameOver) {
+      if (playerScore > dealerScore) {
+        playerWon = true;
+      }
+      else {
+        playerWon = false;
+      }
+    }
+  }
+</script>
+</body>
+</html>
