@@ -1,0 +1,60 @@
+header, footer {
+	padding: 10px;
+	color: white;
+	background-color: black;
+}
+
+nav ul {
+	list-style-type: none;
+	padding:  20px;
+	line-height: 2;
+}
+
+section {
+	background-color: lightgray;
+	padding: 10px;
+	margin: 5px;
+}
+
+article {
+	background-color: white;
+	padding: 10px;
+	margin: 5px;
+}
+
+#wrap {
+	display: flex;
+}
+
+#kehys {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+@media all and (max-width: 1000px) {
+	#kehys {
+		flex-flow: row wrap;
+	}
+	#kehys section + section {
+		margin-left: -60px;
+	} 
+}
+
+@media all and (max-width: 500px) {
+	#wrap {
+		display: block;
+	}
+	
+	nav ul {
+		display: flex;
+		line-height: 0;
+	}
+	
+	nav li {
+		padding-right: 15px;
+	}
+	
+	#kehys section + section {
+		margin-left: 5px;
+	} 
+}
