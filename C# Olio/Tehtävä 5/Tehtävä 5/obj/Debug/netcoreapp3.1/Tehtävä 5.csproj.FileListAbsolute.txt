@@ -1,0 +1,13 @@
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\bin\Debug\netcoreapp3.1\Tehtävä 5.exe
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\bin\Debug\netcoreapp3.1\Tehtävä 5.deps.json
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\bin\Debug\netcoreapp3.1\Tehtävä 5.runtimeconfig.json
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\bin\Debug\netcoreapp3.1\Tehtävä 5.runtimeconfig.dev.json
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\bin\Debug\netcoreapp3.1\Tehtävä 5.dll
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\bin\Debug\netcoreapp3.1\Tehtävä 5.pdb
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\obj\Debug\netcoreapp3.1\Tehtävä 5.csprojAssemblyReference.cache
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\obj\Debug\netcoreapp3.1\Tehtävä 5.AssemblyInfoInputs.cache
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\obj\Debug\netcoreapp3.1\Tehtävä 5.AssemblyInfo.cs
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\obj\Debug\netcoreapp3.1\Tehtävä 5.csproj.CoreCompileInputs.cache
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\obj\Debug\netcoreapp3.1\Tehtävä 5.dll
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\obj\Debug\netcoreapp3.1\Tehtävä 5.pdb
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# Olio\Tehtävä 5\Tehtävä 5\obj\Debug\netcoreapp3.1\Tehtävä 5.genruntimeconfig.cache
