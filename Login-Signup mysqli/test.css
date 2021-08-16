@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.wrapper {
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+}
+.signup input, button{
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.login input, button{
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+}
