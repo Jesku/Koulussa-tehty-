@@ -1,0 +1,15 @@
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\bin\Debug\Eurolaskuri.exe.config
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\bin\Debug\Eurolaskuri.exe
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\bin\Debug\Eurolaskuri.pdb
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\MainWindow.g.cs
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\App.g.cs
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\Eurolaskuri_MarkupCompile.cache
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\Eurolaskuri_MarkupCompile.lref
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\MainWindow.baml
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\Eurolaskuri.g.resources
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\Eurolaskuri.Properties.Resources.resources
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\Eurolaskuri.csproj.GenerateResource.cache
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\Eurolaskuri.csproj.CoreCompileInputs.cache
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\Eurolaskuri.exe
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\Eurolaskuri.pdb
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\Eurolaskuri\Eurolaskuri\obj\Debug\Eurolaskuri.csproj.AssemblyReference.cache

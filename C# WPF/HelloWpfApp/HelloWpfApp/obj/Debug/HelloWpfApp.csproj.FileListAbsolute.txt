@@ -1,0 +1,15 @@
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\bin\Debug\HelloWpfApp.exe.config
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\bin\Debug\HelloWpfApp.exe
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\bin\Debug\HelloWpfApp.pdb
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\HelloWpfApp.csprojAssemblyReference.cache
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\Greetings.g.cs
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\App.g.cs
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\HelloWpfApp_MarkupCompile.cache
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\HelloWpfApp_MarkupCompile.lref
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\Greetings.baml
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\HelloWpfApp.g.resources
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\HelloWpfApp.Properties.Resources.resources
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\HelloWpfApp.csproj.GenerateResource.cache
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\HelloWpfApp.csproj.CoreCompileInputs.cache
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\HelloWpfApp.exe
+C:\Users\Jesse\OneDrive - Jyväskylän koulutuskuntayhtymä\Ohjelmiston prototyypin toteuttaminen\C# WPF\HelloWpfApp\HelloWpfApp\obj\Debug\HelloWpfApp.pdb

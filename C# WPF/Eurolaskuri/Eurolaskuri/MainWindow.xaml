@@ -1,0 +1,18 @@
+﻿<Window x:Name="Eurolaskuri" x:Class="Eurolaskuri.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Eurolaskuri"
+        mc:Ignorable="d"
+        Title="Eurolaskuri" Height="450" Width="800">
+    <Grid>
+        <Label Content="Anna rahasumma:" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="luku1" HorizontalAlignment="Left" Height="23" Margin="50,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="euro" Content="Euroista markoiksi" HorizontalAlignment="Left" Margin="50,150,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="markka" Content="Markoista euroiksi" HorizontalAlignment="Left" Margin="50,200,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Laske" HorizontalAlignment="Left" Margin="50,250,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="Tulos" HorizontalAlignment="Left" Height="23" Margin="50,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
