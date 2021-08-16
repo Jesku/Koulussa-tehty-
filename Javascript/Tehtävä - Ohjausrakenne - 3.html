@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <title>Ohjausrakenne - 3</title>
+</head>
+<body>
+	<script>
+		var sun = prompt("Paistaako aurinko? Vastaa K tai E.");
+		var rain = prompt("Sataako? Vastaa K tai E.");
+		var temp = prompt("Onko lämmpötila enemmän kuin 0? Vastaa K tai E.");
+		if (sun == "K" && rain == "K" && temp == "K") {
+			document.write ("Aurinko paistaa ja vettä sataa taitaa tulla kesä." );
+			console.log ("Aurinko paistaa ja vettä sataa taitaa tulla kesä." );
+		}
+		else if (sun == "E" && rain == "K" && temp == "K") {
+			document.write ("Syksy saapui lehdet vei tuuli mennessään.");
+			console.log ("Syksy saapui lehdet vei tuuli mennessään.");
+		}
+		else if (sun == "E" && rain == "E" && temp == "K" || sun == "K" && rain =="E" && temp == "K") {
+			document.write ("Jo joutui armas aika ja suvi suloinen." );
+			console.log ("Jo joutui armas aika ja suvi suloinen." );
+		}
+		else if (sun == "K" && rain == "K" && temp == "E") {
+			document.write ("Taitaa sataa lunta sitten.");
+			console.log ("Taitaa sataa lunta sitten.");
+		}
+		else if (sun == "E" && rain == "E" && temp == "E") {
+			document.write ("Sehän on pimeä ja kylmä yö.");
+			console.log ("Sehän on pimeä ja kylmä yö");
+		}
+		else if (sun == "E" && rain == "K" && temp == "E") {
+			document.write ("Herätessä onkin sitten lunta maassa.");
+			console.log ("Herätessä onkin sitten lunta maassa.");
+		}
+		else {
+			alert("Ole kiltti ja tarkasta kaikki vastaukset, kiitos");
+		}
+	</script>
+</body>
+</html>

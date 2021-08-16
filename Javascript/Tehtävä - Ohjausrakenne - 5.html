@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <title>Ohjausrakenne - 5</title>
+</head>
+<body> 
+<style>
+  div.dice { 
+	  width:30px;
+	  background:color="white";
+    border:1px solid;
+    border-color:"black";
+    padding:10px;
+    font-size:24px;
+    text-align:center;
+    margin: 5px;
+    }
+  </style>
+  <div id="dice1" class="dice">0</div>
+  <div id="dice2" class="dice">0</div>
+  <button onclick="roll()">Heitä noppia</button><br>
+  <h2 id="status" style="clear:left;"></h2>
+  <script>
+    var biggest = [];
+    var sum = 0;
+    var diceTotal = 0;
+    function roll() {
+    var dice1 = document.getElementById("dice1");
+    var dice2 = document.getElementById("dice2");
+    var status = document.getElementById("status");
+    var d1 = Math.floor(Math.random() * 6) + 1;
+    var d2 = Math.floor(Math.random() * 6) + 1;
+    diceTotal = d1 + d2;
+    biggest.push(diceTotal); 
+    sum = sum + diceTotal;
+    dice1.innerHTML = d1;
+    dice2.innerHTML = d2;
+    status.innerHTML = "Tulos " + diceTotal + "<br>" + "Suurin tulos " + Math.max(...biggest) + "<br>" + "Summa yhteensä " + sum;
+    }
+	</script>
+</body>
+</html>
+    
+
